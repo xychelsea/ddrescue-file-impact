@@ -1,0 +1,7 @@
+# GNU ddrescue mapfile fixture
+# Boot/metadata area (before cluster heap at 0x4000)
+0x0 0x1000 ?
+# Cluster 2 (root directory)
+0x4000 0x8000 -
+# Cluster 3 (README.TXT data)
+0xC000 0x4000 ?
